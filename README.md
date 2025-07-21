@@ -29,6 +29,8 @@ Instructions are provided in the `yolo_loss.py` file to help you guide through t
 First and foremost, install all required packages by running the command:
 
 ```
+python -m venv venv
+.\venv\Scripts\activate
 pip install -r requirements.txt
 ```
 Once installed and you have implemented the loss function, you can train using the command:
